@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landing');
-});
+Route::view('/', 'landing')->name('home');
+Route::view('/services', 'services')->name('services');
+Route::view('/products', 'products')->name('products');
+Route::view('/about', 'about')->name('about');
+Route::view('/contacts', 'contacts')->name('contacts');
+
