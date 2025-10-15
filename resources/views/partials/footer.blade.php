@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="bg-neutral-950 text-neutral-300">
+<footer class="bg-[#9e1c1c] text-neutral-300">
     <div class="mx-auto max-w-7xl px-6 py-12 grid md:grid-cols-4 gap-8">
         <div>
             <p class="text-lg font-bold text-white">RedBatTeam</p>
