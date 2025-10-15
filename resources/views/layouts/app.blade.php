@@ -20,7 +20,7 @@
         <div class="flex items-center justify-between h-16">
             <!-- Logo -->
             <a href="{{ route('home') }}" class="flex items-center gap-2">
-                <img src="{{ asset('logo.png') }}" alt="Logo redBatteam" class="h-10 w-auto">
+                <img src="{{ url('/logo.png') }}" alt="Logo redBatteam" class="h-10 w-auto">
                 <span class="text-xl font-bold">RedBatTeam</span>
             </a>
 
