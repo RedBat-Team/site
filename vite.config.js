@@ -8,4 +8,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/build', // 👈 o Laravel espera isto
+        emptyOutDir: true,      // limpa a pasta antes de rebuildar
+    },
 });
